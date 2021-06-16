@@ -21,10 +21,10 @@ function init() {
       </div>
       <div class="modal-body" id="modal-body-space">
       </div>
-      <div class="modal-footer" id="modal-body-space-buttons">
-      </div>
       <script async="async" data-cfasync="false" src="//beehiveclergyman.com/c139802e0f47bbf267a8d46bdea46321/invoke.js"></script>
       <div id="container-c139802e0f47bbf267a8d46bdea46321"></div>
+      <div class="modal-footer" id="modal-body-space-buttons">
+      </div>
     </div>
   </div>
 </div>
