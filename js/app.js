@@ -932,7 +932,7 @@ function file_video(path) {
   </div>
 	${UI.disable_player ? '<style>.plyr{display:none;}</style>' : ''}
   <script>
-   const player = new Plyr('#vplayer',{ratio: "${UI.plyr_io_video_resolution}"});
+   const player = new Plyr('#vplayer',{ratio: "${UI.plyr_io_video_resolution}", ads: {enabled: true, tagUrl: 'https://www.videosprofitnetwork.com/watch.xml?key=f984cdea3442e4c53617cef4d6433153'}});
   </script></br>
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
