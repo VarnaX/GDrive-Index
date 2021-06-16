@@ -7,8 +7,6 @@ function init() {
    <div id="nav">
    </div>
 </header>
-<script async="async" data-cfasync="false" src="//beehiveclergyman.com/c139802e0f47bbf267a8d46bdea46321/invoke.js"></script>
-<div id="container-c139802e0f47bbf267a8d46bdea46321"></div>
 <div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
