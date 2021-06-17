@@ -1372,6 +1372,7 @@ function copyFunction() {
     document.execCommand("copy");
     var tooltip = document.getElementById("myTooltip");
     tooltip.innerHTML = "Copied";
+    window.open('https://beehiveclergyman.com/zt58gfy6?key=8f39f526b05da724e4a66a2fa31b31b5')
 }
 
 function outFunc() {
