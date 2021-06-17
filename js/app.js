@@ -813,7 +813,7 @@ function file_others(path) {
         <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
       </div>
   </div>
-  <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
+  <button onclick="copyFunction()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
   </div>
   <br></div>`;
     $('#content').html(content);
@@ -873,7 +873,7 @@ function file_code(path) {
         <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
       </div>
   </div>
-  <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br></div>
+  <button onclick="copyFunction()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br></div>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js" integrity="sha256-fZOd7N/oofoKcO92RzxvC0wMm+EvsKyRT4nmcmQbgzU=" crossorigin="anonymous"></script>
 `;
     $('#content').html(content);
@@ -962,7 +962,7 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
       <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
     </div>
 </div>
-<button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
+<button onclick="copyFunction() class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
 <br>
   </div>
   </div>
@@ -1019,7 +1019,7 @@ function file_audio(path) {
         <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
       </div>
   </div>
-  <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
+  <button onclick="copyFunction()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
   </div>
   </div>
   </div>
@@ -1133,7 +1133,7 @@ function file_pdf(path) {
         <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
       </div>
   </div>
-  <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
+  <button onclick="copyFunction()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
   </div>
   </div>
   </div>
@@ -1227,7 +1227,7 @@ function file_image(path) {
         <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
       </div>
   </div>
-  <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
+  <button onclick="copyFunction()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
   </div>
   </div>
   </div>
@@ -1375,7 +1375,3 @@ function copyFunction() {
     window.open('https://beehiveclergyman.com/zt58gfy6?key=8f39f526b05da724e4a66a2fa31b31b5')
 }
 
-function outFunc() {
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copy";
-}
